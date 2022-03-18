@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/studentManagementSystemBySpringBoot-main1.iml" filepath="$PROJECT_DIR$/.idea/studentManagementSystemBySpringBoot-main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studentManagementSystemBySpringBoot-main/studentapplication/studentapplication.iml" filepath="$PROJECT_DIR$/studentManagementSystemBySpringBoot-main/studentapplication/studentapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studentManagementSystemBySpringBoot-main/Student_managements-_By-spring_boot/studentapplication/studentapplication (1).iml" filepath="$PROJECT_DIR$/studentManagementSystemBySpringBoot-main/Student_managements-_By-spring_boot/studentapplication/studentapplication (1).iml" />
+    </modules>
+  </component>
+</project>
