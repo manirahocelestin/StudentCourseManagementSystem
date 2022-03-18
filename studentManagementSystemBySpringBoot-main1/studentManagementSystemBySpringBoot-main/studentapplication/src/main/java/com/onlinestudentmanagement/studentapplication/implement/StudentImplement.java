@@ -57,15 +57,20 @@ facultyRep.save(faculty2);
 Department department = new Department("Software Engineering",faculty);
 Department department1 = new Department("Marketing",faculty2);
 Department department2 = new Department("Networking",faculty);
+Department department3 = new Department("infoManagement",faculty);
 departmentRep.save(department);
 departmentRep.save(department1);
 departmentRep.save(department2);
+departmentRep.save(department3);
 
 Student student1 = new Student("albert",Egender.MALE,LocalDate.of(1992,01,05),"Kigali", department);
+Student student2 = new Student("meek",Egender.MALE,LocalDate.of(2019,04,04),"Usa",department1);
+
 //c1.getStudents().add(student1);
 //student1.getCourses().add(c3);
 //courseRep.save(c3);
 studentRep.save(student1);
+studentRep.save(student2);
 
         System.out.println("the number of course is "+courseRep.count());
         System.out.println("the number of faculty is "+facultyRep.count());
